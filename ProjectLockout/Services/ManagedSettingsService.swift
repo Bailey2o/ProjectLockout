@@ -6,7 +6,13 @@ import ManagedSettings
 final class ManagedSettingsService {
     private let store: ManagedSettingsStore
 
-    init(store: ManagedSettingsStore = ManagedSettingsStore()) {
+    /// Construct `ManagedSettingsStore` in the initializer body, not a default
+    /// argument, so store creation stays off of nonisolated default-arg evaluation.
+    init() {
+        self.store = ManagedSettingsStore()
+    }
+
+    init(store: ManagedSettingsStore) {
         self.store = store
     }
 

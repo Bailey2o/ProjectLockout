@@ -7,7 +7,13 @@ import Foundation
 final class FamilyControlsService {
     private let center: AuthorizationCenter
 
-    init(center: AuthorizationCenter = .shared) {
+    /// `AuthorizationCenter.shared` is main-actor isolated, so it is captured in
+    /// the initializer body — never as a default argument (those are nonisolated).
+    init() {
+        self.center = .shared
+    }
+
+    init(center: AuthorizationCenter) {
         self.center = center
     }
 

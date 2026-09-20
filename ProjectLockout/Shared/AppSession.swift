@@ -22,10 +22,20 @@ final class AppSession: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     private var didStart = false
 
+    /// Production wiring. Built on the main actor so Family Controls and
+    /// Managed Settings objects are not created from nonisolated default arguments.
+    static func make() -> AppSession {
+        AppSession(
+            familyControls: FamilyControlsService(),
+            managedSettings: ManagedSettingsService(),
+            keychain: KeychainService()
+        )
+    }
+
     init(
-        familyControls: FamilyControlsService = FamilyControlsService(),
-        managedSettings: ManagedSettingsService = ManagedSettingsService(),
-        keychain: KeychainService = KeychainService()
+        familyControls: FamilyControlsService,
+        managedSettings: ManagedSettingsService,
+        keychain: KeychainService
     ) {
         self.familyControls = familyControls
         self.managedSettings = managedSettings

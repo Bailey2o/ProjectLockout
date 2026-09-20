@@ -51,5 +51,5 @@ struct WelcomeView: View {
 
 #Preview {
     WelcomeView()
-        .environmentObject(AppSession())
+        .environmentObject(AppSession.make())
 }
