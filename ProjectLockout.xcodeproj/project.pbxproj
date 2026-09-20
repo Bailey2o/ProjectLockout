@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E94333EA88EDA43B265F825 /* CommitmentConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC61A1ADF55A0C7176D64E4 /* CommitmentConfirmationView.swift */; };
+		F9568367EC506F472DE2C948 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCE0B3200E40517C300FDEA /* DashboardView.swift */; };
+		8066ECC85099FD0D5F3B0622 /* HealthCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8553735FF606886AD70B0 /* HealthCard.swift */; };
+		55AE91138CD8A2EF8E693A65 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227E3E14852274C29611ADD7 /* PermissionView.swift */; };
+		CA325C1DCD6C8FE870C78D5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC8FF6F23722856DFD6781 /* WelcomeView.swift */; };
+		FA6E7F6CAB23BAF49E8544EB /* SelectionTokenList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B73D2D7AA036EBEB0E303F /* SelectionTokenList.swift */; };
+		94494E920085DF57CE9F930D /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927C10403F92740A5A12A83 /* SelectionView.swift */; };
+		DE4C16EB603D08C6E9944E60 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA56188C8E6F4A42FA943D /* AppRoute.swift */; };
+		C9961586615C46F96491A9F2 /* LocalCommitment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBAF3D261AFD23B34F97461 /* LocalCommitment.swift */; };
+		E7942B6D274D538DEEFD02F4 /* LockoutError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6843C9A80A53FDB5BCB3B858 /* LockoutError.swift */; };
+		A2341C8EC9B993E81BED5CF9 /* ProtectionHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29DD9142DB2BCE5CA7DB15 /* ProtectionHealth.swift */; };
+		41DCCD8DC03269E071193B63 /* RestrictionSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5752E870A8BC19943A7BB096 /* RestrictionSelection.swift */; };
+		41A9531E6191E7ED291E201A /* ShieldSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67B9358CA06F2FD9060294A /* ShieldSnapshot.swift */; };
+		F3E3C4DC77BE6590465CDE71 /* ProjectLockoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51698A6C8FC4DA07917527 /* ProjectLockoutApp.swift */; };
+		0A412DD564A8D15524360ACE /* FamilyControlsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376BEEF2AD602CAF8791764F /* FamilyControlsService.swift */; };
+		A528B0271DDF9607AE6F8CDE /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733BF180FBEEAB420C681940 /* KeychainService.swift */; };
+		E2E07285E58C344BDD0FE33D /* LocalCommitmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A83E74AEBFD3AA4274D39E /* LocalCommitmentService.swift */; };
+		E226BF670ACEB99C02DEF3FC /* LockoutLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F11BD2639F63549A432B6F /* LockoutLog.swift */; };
+		40C47398E68F34F5ED91C7EE /* ManagedSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654E4C53E4EDCFF7CA3C7D93 /* ManagedSettingsService.swift */; };
+		5557553F757A65C3BC3CE24E /* ProtectionHealthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE62D69F62D1532A54DE99F8 /* ProtectionHealthService.swift */; };
+		E282805A0759BC4A7D639795 /* SelectionPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204B3B55E05EB8568CFAF519 /* SelectionPersistenceService.swift */; };
+		6D2CB1DBA2C59A2FBA14F02B /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E1D75EF0068DA81C35EA8 /* AppSession.swift */; };
+		399F2C5FBBAB94E604BCB15C /* LockoutChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2F0D29762D125E269DE0A /* LockoutChrome.swift */; };
+		569A3334C3605A4639D74FD6 /* LockoutIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1695664CDF3FA606A6145300 /* LockoutIdentity.swift */; };
+		CBE720FAD2B9CA6FFA78BEC8 /* LockoutTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD6F6B7A89622508A10DE9 /* LockoutTheme.swift */; };
+		A60B1416C8EB77DEEC150E07 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763B67279DE63CBBA7DD80EA /* RootView.swift */; };
+		207A6B537755ECD6D7178B2C /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E635BC3EEBA6DA11F4369B /* ShieldConfigurationExtension.swift */; };
+		716E9590E60B3AFA6E62BF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6 /* Assets.xcassets */; };
+		85CC0E746FF8B717E0600413 /* ShieldConfigurationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4AFAC920BF1630972425D5BB /* ShieldConfigurationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255A762C36CDAE2FE950E67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8BAA12C330271C02BB2E90;
+			remoteInfo = ShieldConfigurationExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		060C35239F908B8E4EB554F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85CC0E746FF8B717E0600413 /* ShieldConfigurationExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CC61A1ADF55A0C7176D64E4 /* CommitmentConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitmentConfirmationView.swift; sourceTree = "<group>"; };
+		4CCE0B3200E40517C300FDEA /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		04E8553735FF606886AD70B0 /* HealthCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCard.swift; sourceTree = "<group>"; };
+		227E3E14852274C29611ADD7 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
+		19FC8FF6F23722856DFD6781 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		76B73D2D7AA036EBEB0E303F /* SelectionTokenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTokenList.swift; sourceTree = "<group>"; };
+		B927C10403F92740A5A12A83 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		A3FA56188C8E6F4A42FA943D /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		CFBAF3D261AFD23B34F97461 /* LocalCommitment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCommitment.swift; sourceTree = "<group>"; };
+		6843C9A80A53FDB5BCB3B858 /* LockoutError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockoutError.swift; sourceTree = "<group>"; };
+		3D29DD9142DB2BCE5CA7DB15 /* ProtectionHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionHealth.swift; sourceTree = "<group>"; };
+		5752E870A8BC19943A7BB096 /* RestrictionSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionSelection.swift; sourceTree = "<group>"; };
+		C67B9358CA06F2FD9060294A /* ShieldSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldSnapshot.swift; sourceTree = "<group>"; };
+		4A51698A6C8FC4DA07917527 /* ProjectLockoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectLockoutApp.swift; sourceTree = "<group>"; };
+		376BEEF2AD602CAF8791764F /* FamilyControlsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyControlsService.swift; sourceTree = "<group>"; };
+		733BF180FBEEAB420C681940 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		66A83E74AEBFD3AA4274D39E /* LocalCommitmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCommitmentService.swift; sourceTree = "<group>"; };
+		71F11BD2639F63549A432B6F /* LockoutLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockoutLog.swift; sourceTree = "<group>"; };
+		654E4C53E4EDCFF7CA3C7D93 /* ManagedSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsService.swift; sourceTree = "<group>"; };
+		DE62D69F62D1532A54DE99F8 /* ProtectionHealthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionHealthService.swift; sourceTree = "<group>"; };
+		204B3B55E05EB8568CFAF519 /* SelectionPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionPersistenceService.swift; sourceTree = "<group>"; };
+		3B6E1D75EF0068DA81C35EA8 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
+		9EE2F0D29762D125E269DE0A /* LockoutChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockoutChrome.swift; sourceTree = "<group>"; };
+		1695664CDF3FA606A6145300 /* LockoutIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockoutIdentity.swift; sourceTree = "<group>"; };
+		B6AD6F6B7A89622508A10DE9 /* LockoutTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockoutTheme.swift; sourceTree = "<group>"; };
+		763B67279DE63CBBA7DD80EA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		60E635BC3EEBA6DA11F4369B /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		5718BA8B2965F0F686C8E55B /* ProjectLockout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectLockout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFAC920BF1630972425D5BB /* ShieldConfigurationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldConfigurationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3685E330EC5277A9DD5661C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED1E415FE820181EBCBA259 /* ProjectLockout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjectLockout.entitlements; sourceTree = "<group>"; };
+		4678BA2580D7AC2F57728354 /* ShieldConfigurationExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShieldConfigurationExtension.entitlements; sourceTree = "<group>"; };
+		985F835A17E85464E7B38DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8226845DD06A9803C9F1E0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563552C688FE6FC33373EA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF401F405384E02A0BF02D3 /* ProjectLockout */ = {
+			isa = PBXGroup;
+			children = (
+				1F26A8704D8CDB03D5D3D4BB /* Features */,
+				BF657CFE8769AAE6C0570C29 /* Models */,
+				6EE67047A4B2648DDBB08231 /* Services */,
+				44C7E229889FE9D1BB841A79 /* Shared */,
+				3685E330EC5277A9DD5661C6 /* Assets.xcassets */,
+				5ED1E415FE820181EBCBA259 /* ProjectLockout.entitlements */,
+				4A51698A6C8FC4DA07917527 /* ProjectLockoutApp.swift */,
+			);
+			path = ProjectLockout;
+			sourceTree = "<group>";
+		};
+		1F26A8704D8CDB03D5D3D4BB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F86E7C109D1B843EB71CD482 /* Commitment */,
+				5BA66F72751A9FF6697CA757 /* Dashboard */,
+				3BF44E8269DC59BEDCE7E9BB /* Onboarding */,
+				52F8CDD9C5F3BA2A7FF83666 /* Selection */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BF657CFE8769AAE6C0570C29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA56188C8E6F4A42FA943D /* AppRoute.swift */,
+				CFBAF3D261AFD23B34F97461 /* LocalCommitment.swift */,
+				6843C9A80A53FDB5BCB3B858 /* LockoutError.swift */,
+				3D29DD9142DB2BCE5CA7DB15 /* ProtectionHealth.swift */,
+				5752E870A8BC19943A7BB096 /* RestrictionSelection.swift */,
+				C67B9358CA06F2FD9060294A /* ShieldSnapshot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EE67047A4B2648DDBB08231 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				376BEEF2AD602CAF8791764F /* FamilyControlsService.swift */,
+				733BF180FBEEAB420C681940 /* KeychainService.swift */,
+				66A83E74AEBFD3AA4274D39E /* LocalCommitmentService.swift */,
+				71F11BD2639F63549A432B6F /* LockoutLog.swift */,
+				654E4C53E4EDCFF7CA3C7D93 /* ManagedSettingsService.swift */,
+				DE62D69F62D1532A54DE99F8 /* ProtectionHealthService.swift */,
+				204B3B55E05EB8568CFAF519 /* SelectionPersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44C7E229889FE9D1BB841A79 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3B6E1D75EF0068DA81C35EA8 /* AppSession.swift */,
+				9EE2F0D29762D125E269DE0A /* LockoutChrome.swift */,
+				1695664CDF3FA606A6145300 /* LockoutIdentity.swift */,
+				B6AD6F6B7A89622508A10DE9 /* LockoutTheme.swift */,
+				763B67279DE63CBBA7DD80EA /* RootView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F86E7C109D1B843EB71CD482 /* Commitment */ = {
+			isa = PBXGroup;
+			children = (
+				0CC61A1ADF55A0C7176D64E4 /* CommitmentConfirmationView.swift */,
+			);
+			path = Commitment;
+			sourceTree = "<group>";
+		};
+		5BA66F72751A9FF6697CA757 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE0B3200E40517C300FDEA /* DashboardView.swift */,
+				04E8553735FF606886AD70B0 /* HealthCard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		3BF44E8269DC59BEDCE7E9BB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				227E3E14852274C29611ADD7 /* PermissionView.swift */,
+				19FC8FF6F23722856DFD6781 /* WelcomeView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		52F8CDD9C5F3BA2A7FF83666 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				76B73D2D7AA036EBEB0E303F /* SelectionTokenList.swift */,
+				B927C10403F92740A5A12A83 /* SelectionView.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		8628273F8F56A96723391F22 /* ShieldConfigurationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				60E635BC3EEBA6DA11F4369B /* ShieldConfigurationExtension.swift */,
+				985F835A17E85464E7B38DA2 /* Info.plist */,
+				4678BA2580D7AC2F57728354 /* ShieldConfigurationExtension.entitlements */,
+			);
+			path = ShieldConfigurationExtension;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5718BA8B2965F0F686C8E55B /* ProjectLockout.app */,
+				4AFAC920BF1630972425D5BB /* ShieldConfigurationExtension.appex */,
+			);
+			sourceTree = "<group>";
+		};
+		3B03968955E7881F83E4CACB = {
+			isa = PBXGroup;
+			children = (
+				1DF401F405384E02A0BF02D3 /* ProjectLockout */,
+				8628273F8F56A96723391F22 /* ShieldConfigurationExtension */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD1BDFE40AA20836710EC01 /* ProjectLockout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8FB42965893BD12EA629B4 /* Build configuration list for PBXNativeTarget "ProjectLockout" */;
+			buildPhases = (
+				DE54E274973760DB10C0103F /* Sources */,
+				8226845DD06A9803C9F1E0E1 /* Frameworks */,
+				3073F9BACE8365BB56700AF3 /* Resources */,
+				060C35239F908B8E4EB554F4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = ProjectLockout;
+			productName = ProjectLockout;
+			productReference = 5718BA8B2965F0F686C8E55B /* ProjectLockout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8BAA12C330271C02BB2E90 /* ShieldConfigurationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239E864FB71DBA69418C0839 /* Build configuration list for PBXNativeTarget "ShieldConfigurationExtension" */;
+			buildPhases = (
+				43047C03A05123C157D0F2EE /* Sources */,
+				563552C688FE6FC33373EA08 /* Frameworks */,
+				D729B8125343914FEABAD9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldConfigurationExtension;
+			productName = ShieldConfigurationExtension;
+			productReference = 4AFAC920BF1630972425D5BB /* ShieldConfigurationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CCD1BDFE40AA20836710EC01 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					AC8BAA12C330271C02BB2E90 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = BEC5C25769BE6E3C765BE132 /* Build configuration list for PBXProject "ProjectLockout" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B03968955E7881F83E4CACB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD1BDFE40AA20836710EC01 /* ProjectLockout */,
+				AC8BAA12C330271C02BB2E90 /* ShieldConfigurationExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3073F9BACE8365BB56700AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716E9590E60B3AFA6E62BF18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729B8125343914FEABAD9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE54E274973760DB10C0103F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E94333EA88EDA43B265F825 /* CommitmentConfirmationView.swift in Sources */,
+				F9568367EC506F472DE2C948 /* DashboardView.swift in Sources */,
+				8066ECC85099FD0D5F3B0622 /* HealthCard.swift in Sources */,
+				55AE91138CD8A2EF8E693A65 /* PermissionView.swift in Sources */,
+				CA325C1DCD6C8FE870C78D5A /* WelcomeView.swift in Sources */,
+				FA6E7F6CAB23BAF49E8544EB /* SelectionTokenList.swift in Sources */,
+				94494E920085DF57CE9F930D /* SelectionView.swift in Sources */,
+				DE4C16EB603D08C6E9944E60 /* AppRoute.swift in Sources */,
+				C9961586615C46F96491A9F2 /* LocalCommitment.swift in Sources */,
+				E7942B6D274D538DEEFD02F4 /* LockoutError.swift in Sources */,
+				A2341C8EC9B993E81BED5CF9 /* ProtectionHealth.swift in Sources */,
+				41DCCD8DC03269E071193B63 /* RestrictionSelection.swift in Sources */,
+				41A9531E6191E7ED291E201A /* ShieldSnapshot.swift in Sources */,
+				F3E3C4DC77BE6590465CDE71 /* ProjectLockoutApp.swift in Sources */,
+				0A412DD564A8D15524360ACE /* FamilyControlsService.swift in Sources */,
+				A528B0271DDF9607AE6F8CDE /* KeychainService.swift in Sources */,
+				E2E07285E58C344BDD0FE33D /* LocalCommitmentService.swift in Sources */,
+				E226BF670ACEB99C02DEF3FC /* LockoutLog.swift in Sources */,
+				40C47398E68F34F5ED91C7EE /* ManagedSettingsService.swift in Sources */,
+				5557553F757A65C3BC3CE24E /* ProtectionHealthService.swift in Sources */,
+				E282805A0759BC4A7D639795 /* SelectionPersistenceService.swift in Sources */,
+				6D2CB1DBA2C59A2FBA14F02B /* AppSession.swift in Sources */,
+				399F2C5FBBAB94E604BCB15C /* LockoutChrome.swift in Sources */,
+				569A3334C3605A4639D74FD6 /* LockoutIdentity.swift in Sources */,
+				CBE720FAD2B9CA6FFA78BEC8 /* LockoutTheme.swift in Sources */,
+				A60B1416C8EB77DEEC150E07 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43047C03A05123C157D0F2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207A6B537755ECD6D7178B2C /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8BAA12C330271C02BB2E90 /* ShieldConfigurationExtension */;
+			targetProxy = 255A762C36CDAE2FE950E67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2259C6C894B8B6FCD3196666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+
+			};
+			name = Debug;
+		};
+		5FA4B972F4119D8959E892B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+
+			};
+			name = Release;
+		};
+		9303EFBCAFCD82C17933C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProjectLockout/ProjectLockout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lockout;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectlockout.Lockout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
+			};
+			name = Debug;
+		};
+		0F8B4C7FB77C768D3A78A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProjectLockout/ProjectLockout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Lockout;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectlockout.Lockout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
+			};
+			name = Release;
+		};
+		2539B21F1450F066B08C4D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShieldConfigurationExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lockout Shield";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectlockout.Lockout.ShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+
+			};
+			name = Debug;
+		};
+		A54D1F0EAA9C0DA30C89BD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShieldConfigurationExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lockout Shield";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.projectlockout.Lockout.ShieldConfiguration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC5C25769BE6E3C765BE132 /* Build configuration list for PBXProject "ProjectLockout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2259C6C894B8B6FCD3196666 /* Debug */,
+				5FA4B972F4119D8959E892B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8FB42965893BD12EA629B4 /* Build configuration list for PBXNativeTarget "ProjectLockout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9303EFBCAFCD82C17933C9EB /* Debug */,
+				0F8B4C7FB77C768D3A78A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239E864FB71DBA69418C0839 /* Build configuration list for PBXNativeTarget "ShieldConfigurationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2539B21F1450F066B08C4D97 /* Debug */,
+				A54D1F0EAA9C0DA30C89BD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
